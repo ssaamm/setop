@@ -19,15 +19,19 @@ Assuming ~/bin is in your `$PATH`, simply:
 ## Example:
     
 a.txt:  
+
     cat
     mouse
     rabbit
 
 b.txt:  
+
     moose
     rabbit
     giraffe
     cat
+
+Then,
 
     $ setop intersect a.txt b.txt
     rabbit
