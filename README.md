@@ -9,6 +9,13 @@ Supported operations:
 - union
 - difference
 
+## Installing
+
+Assuming ~/bin is in your `$PATH`, simply:
+
+    cp setop.py ~/bin/setop
+    chmod +x ~/bin/setop
+
 ## Example:
     
 a.txt:  
@@ -27,9 +34,9 @@ b.txt:
     cat
 
 ## Requirements
-- py.test
+
+If you want to run the tests, you'll need py.test. Otherwise, you're good to go!
 
 ## Running the tests
 
-    ln -s setop setop.py # symlink setop.py to setop
     py.test setop.py
